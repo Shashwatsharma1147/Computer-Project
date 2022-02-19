@@ -1,0 +1,150 @@
+body {
+    text-align: center;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 35px;
+    text-shadow: 2px 2px #0cf2f2;
+}
+
+#p1 {
+    font-size: 25px;
+    color: darkblue;
+    font-family: italic;
+}
+
+.img1 {
+    width: 345px;
+}
+
+#bio {
+    padding: 50px;
+    background: linear-gradient(#9710e6 0%, #e61042 100%);
+}
+
+#Introduction {
+    padding: 50px;
+    background: linear-gradient(#f7b705 0%, #05f024 100%);
+}
+
+#img2 {
+    width: 100px;
+}
+
+.menu {
+    font-family: inherit;
+    position: fixed;
+    top: 0px;
+    right: 30px;
+    z-index: 10;
+    cursor: pointer;
+    background: white;
+    margin-top: 0px;
+    width: 100%;
+}
+
+.link {
+    float: right;
+    color: brown;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    font-family: fantasy;
+    font-size: 25px;
+}
+
+.link:hover {
+    background-color: blueviolet;
+}
+
+a {
+    text-decoration: none;
+    color: brown;
+}
+
+.article:hover {
+    color: crimson;
+}
+
+html {
+    scroll-behavior: smooth
+}
+
+.line {
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin: 8px auto;
+}
+
+#img1 {
+    width: 700px;
+    height: 500px;
+}
+
+h3 {
+    font-size: 30px;
+    font-family: fantasy;
+    text-shadow: 2px 2px #fa5aed;
+}
+
+#artist {
+    width: 190px;
+    height: 190px;
+    transition: transform .2s;
+    border: 10px solid #AAAAAA;
+}
+#artist:hover {
+    transform: scale(0.9);
+}
+
+#MSD {
+    font-size: 22px;
+    font-weight: bold;
+    font-family: monospace;
+    color: purple;
+}
+
+#Where {
+    background-color: orange;
+}
+
+#whatever {
+    width: 700px;
+}
+
+#fac {
+    font-family: serif;
+    font-size: 22px;
+    color: blue;
+    font-weight: bold;
+}
+
+#about {
+    background-color: yellow;
+}
+
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+.contact_1 h3{
+    display: inline;
+}
+#contact iframe{
+    width: 100%;
+}
+#Contact{
+    background-color:aqua;
+}
